@@ -46,7 +46,7 @@ Les bases vectorielles sont utilisées pour stocker et rechercher des représent
    - 
 🔗 **Cas d'utilisation** : Systèmes nécessitant une indexation ultra-rapide pour des bases volumineuses.
 
-📌 [📁 Accéder a RAG avec  FAISS fichier excel ](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-FAISS.py)
+📌 [📁 Accéder a RAG avec  FAISS fichier excel](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-FAISS.py)
 
 ### 3️⃣ **Qdrant** 🏆
 🔹 **Description** : Qdrant est un moteur de recherche vectorielle optimisé pour la scalabilité et la recherche en temps réel.
