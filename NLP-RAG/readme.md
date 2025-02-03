@@ -46,7 +46,7 @@ Les bases vectorielles sont utilisées pour stocker et rechercher des représent
    - 
 🔗 **Cas d'utilisation** : Systèmes nécessitant une indexation ultra-rapide pour des bases volumineuses.
 
-📌 [📁 Accéder au fichier FAISS](#)
+📌 [📁 Accéder a RAG avec  FAISS fichier excel ](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-FAISS.py)
 
 ### 3️⃣ **Qdrant** 🏆
 🔹 **Description** : Qdrant est un moteur de recherche vectorielle optimisé pour la scalabilité et la recherche en temps réel.
@@ -56,7 +56,7 @@ Les bases vectorielles sont utilisées pour stocker et rechercher des représent
    -  Facile à déployer avec Docker et Kubernetes.
 🔗 **Cas d'utilisation** : Applications nécessitant une combinaison de recherche vectorielle et sémantique.
 
-📌 [📁 Accéder au fichier Qdrant](#)
+📌 [📁 Accéder au fichier Qdrant]((https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Qdrant.py)
 
 ## 🧠 Choix des Embeddings
 Les embeddings transforment les textes en vecteurs numériques pour faciliter la recherche sémantique.
@@ -73,7 +73,6 @@ Les embeddings transforment les textes en vecteurs numériques pour faciliter la
 -  Large choix de modèles disponibles via la bibliothèque `transformers`.
 -  Facilité d'intégration et d'adaptation selon les besoins spécifiques.
 
-📌 [📁 Accéder au fichier Embeddings](#)
 
 ## 🤖 Choix du Modèle LLM
 Le modèle de langage joue un rôle clé dans l'interprétation et la génération des réponses.
