@@ -34,7 +34,7 @@ Les bases vectorielles sont utilisées pour stocker et rechercher des représent
      
 🔗 **Cas d'utilisation** : Projets nécessitant une solution légère et rapide pour la récupération d'informations.
 
-📌 [📁 Accéder au fichier ChromaDB](#)
+📌 [📁 Accéder a RAG avec ChromaDB fichier excel](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Chroma.py)
 
 ### 2️⃣ **FAISS (Facebook AI Similarity Search)** 🚀
 🔹 **Description** : Développé par Facebook AI, FAISS est une bibliothèque open-source dédiée à la recherche efficace sur de grands ensembles de données.
