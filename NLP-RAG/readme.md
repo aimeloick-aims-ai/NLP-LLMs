@@ -69,7 +69,7 @@ Les embeddings transforment les textes en vecteurs numériques pour faciliter la
 ### 🔹 **Sentence Transformers (SBERT)** 🧩
 -  Optimisé pour des tâches de similarité sémantique.
 -  Pré-entraîné sur divers corpus pour une meilleure généralisation.
-  📌 [📁 Accéder avec Qdrant et SBert](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Qdrant.py)
+  📌 [📁 Accéder avec Qdrant et SBert](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Sentence-Bert-Embedding-RAG.py)
 
 ### 🔹 **Hugging Face Embeddings** 🤗
 -  Large choix de modèles disponibles via la bibliothèque `transformers`.
