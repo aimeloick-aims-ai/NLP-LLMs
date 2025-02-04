@@ -56,7 +56,7 @@ Les bases vectorielles sont utilisées pour stocker et rechercher des représent
    -  Facile à déployer avec Docker et Kubernetes.
 🔗 **Cas d'utilisation** : Applications nécessitant une combinaison de recherche vectorielle et sémantique.
 
-📌 [📁 Accéder au fichier Qdrant]((https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Qdrant.py)
+📌 [📁 Accéder au fichier Qdrant](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Qdrant.py)
 
 ## 🧠 Choix des Embeddings
 Les embeddings transforment les textes en vecteurs numériques pour faciliter la recherche sémantique.
@@ -65,9 +65,11 @@ Les embeddings transforment les textes en vecteurs numériques pour faciliter la
 -  Fournit des représentations vectorielles de haute qualité.
 -  Compatible avec divers modèles d'OpenAI (GPT, CLIP, etc.).
 
+
 ### 🔹 **Sentence Transformers (SBERT)** 🧩
 -  Optimisé pour des tâches de similarité sémantique.
 -  Pré-entraîné sur divers corpus pour une meilleure généralisation.
+  📌 [📁 Accéder avec Qdrant et SBert](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Qdrant.py)
 
 ### 🔹 **Hugging Face Embeddings** 🤗
 -  Large choix de modèles disponibles via la bibliothèque `transformers`.
@@ -80,6 +82,7 @@ Le modèle de langage joue un rôle clé dans l'interprétation et la générati
 ### 🔹 **GPT-4 (OpenAI)** 🚀
 -  Modèle puissant avec des réponses détaillées et précises.
 -  Intégration facile avec les API OpenAI.
+-    Exemple d'application: [Accéder au fichier RAG avec OpenAi](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/Fichier-excel-Qdrant.py)
 
 ### 🔹 **LLaMA (Meta AI)** 🦙
 -  Modèle open-source performant.
@@ -98,5 +101,5 @@ Le modèle de langage joue un rôle clé dans l'interprétation et la générati
 ## 🎯 Conclusion
 Le choix des composants dans un système **RAG** dépend du cas d'utilisation et des exigences en termes de **rapidité**, **précision** et **scalabilité**. En combinant la bonne **base vectorielle**, les bons **embeddings** et un **LLM** adapté, il est possible de créer un système robuste et efficace pour la **récupération et la génération d’informations intelligentes**. 🚀
 
-📌 [📁 Voir tous les fichiers du projet](#)
+📌 [📁 Voir tous les fichiers du projet](https://github.com/GOHOUEDE/IA/blob/main/NLP-RAG/)
 
