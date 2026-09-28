@@ -1,57 +1,66 @@
-# Hate Speech Detection – Subtasks (English & Hausa)
+# POLAR @ SemEval-2026 Task 9
 
-This repository contains the code and experiments for hate speech detection on **English and Hausa** data, focusing on the different subtasks defined in the shared task.
+This folder contains my experiments for **POLAR @ SemEval-2026 Task 9**, a shared task on multilingual online polarization.
 
-The project is implemented using Transformer-based models and Jupyter notebooks for training, evaluation, and analysis.
+The work covers **English and Hausa** across the three subtasks, with most of the later experimentation focused on **Subtask 3**, which also led to an ACL/SemEval 2026 system paper.
 
----
+## Paper
 
-## Subtasks Description
+**DeepSemantics at SemEval-2026 Task 9: Label-Wise Optimization with Adaptive Focal Loss for Polarization Manifestation Identification**
 
-- **Subtask 1**: Binary classification (hate vs. non-hate).
-- **Subtask 2**: Multi-label classification for hate categories.
-- **Subtask 3**: Fine-grained classification of hate speech targets.
+ACL Anthology:  
+https://aclanthology.org/2026.semeval-1.210/
 
-Each subtask is handled separately to better account for label distribution and task-specific characteristics.
+The paper focuses on **Subtask 3** and explores label-wise optimization under severe class imbalance using:
 
----
+- RoBERTa-base for English
+- Afro-XLM-R-small for Hausa
+- One-vs-Rest classification
+- controlled oversampling
+- Adaptive Focal Loss
+- label-specific decision thresholds
 
-## Languages
+## Task overview
 
-- **English**
-- **Hausa**
+### Subtask 1 — Polarization Detection
+Binary classification:
 
-The Hausa setting is particularly challenging due to limited annotated resources and linguistic variability.
+- polarized
+- not polarized
 
----
+Notebooks:
+- [`subtask_1_english.ipynb`](subtask_1_english.ipynb)
+- [`subtask_1_haussa.ipynb`](subtask_1_haussa.ipynb)
 
-## Repository Structure
+### Subtask 2 — Polarization Type Classification
+Multi-label classification of the polarization target:
 
+- Political
+- Racial/Ethnic
+- Religious
+- Gender/Sexual
+- Other
 
----
+Notebooks:
+- [`subtask_2_english.ipynb`](subtask_2_english.ipynb)
+- [`subtask_2_haussa.ipynb`](subtask_2_haussa.ipynb)
 
-## Running the Notebooks
+### Subtask 3 — Polarization Manifestation Identification
+Multi-label classification of how polarization is expressed:
 
-The notebooks can be opened and executed using **Google Colab**:
+- Stereotype
+- Vilification
+- Dehumanization
+- Extreme Language
+- Lack of Empathy
+- Invalidation
 
-- Subtask 1 (English): [Open in Colab](https://drive.google.com/file/d/1fcYtkazva0OFRz2WE2zPctdsLozOykgg/view?usp=drive_link)
-- Subtask 1 (Hausa): [Open in Colab](https://drive.google.com/file/d/1lTZyzt22dMU41fpl6WLbxuFIyujDoTYK/view?usp=drive_link)
-- Subtask 2: [Open in Colab](https://drive.google.com/file/d/1OTXYCVWszMLjEHz25CKYkTvlLcAvbTWv/view?usp=drive_link)
-- Subtask 3: [Open in Colab](https://colab.research.google.com/drive/10AqrS0zmqApG7dnHbnjEkSUK8BumZrPA?usp=drive_link)
-
----
+Notebooks:
+- [`subtask_3_english.ipynb`](subtask_3_english.ipynb)
+- [`subtask_3_hausa.ipynb`](subtask_3_hausa.ipynb)
 
 ## Notes
 
-- Outputs have been cleared before uploading to keep the repository lightweight.
-- Class imbalance is handled during training using weighted loss functions.
-- Evaluation is reported using standard metrics (Precision, Recall, F1-score).
+The notebooks contain both baseline experiments and later imbalance-aware approaches such as class weighting, focal loss, oversampling, and threshold optimization.
 
----
-
-
----
-
-## Acknowledgements
-
-This work is part of a hate speech detection study involving low-resource languages, with a particular focus on Hausa.
+The Subtask 3 paper represents the final system; the notebooks keep part of the experimentation path that led to it.
